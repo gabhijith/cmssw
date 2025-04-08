@@ -683,7 +683,7 @@ def addPFCands(process, allPF = False, addAK4=False, addAK8=False):
 
 btvNano_switch = cms.PSet(
     btvNano_addAK4_switch = cms.untracked.bool(True),
-    btvNano_addAK8_switch = cms.untracked.bool(False),
+    btvNano_addAK8_switch = cms.untracked.bool(True),
     btvNano_addallPF_switch = cms.untracked.bool(False),
     TaggerInput = cms.string("btvSF")
   )
