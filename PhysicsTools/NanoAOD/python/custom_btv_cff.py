@@ -735,7 +735,7 @@ def addPFCands(process, runOnMC=False, allPF = False, addAK4=False, addAK8=False
 
 nanoAOD_allPF_switch = False  # Add all PF candidates, use for training
 nanoAOD_addbtagAK4_switch = True # AK4 SFs vars
-nanoAOD_addbtagAK8_switch = False # AK8 SFs vars
+nanoAOD_addbtagAK8_switch = True # AK8 SFs vars
 
 def PrepBTVCustomNanoAOD_MC(process):    
     addPFCands(process, True, nanoAOD_allPF_switch,nanoAOD_addbtagAK4_switch,nanoAOD_addbtagAK8_switch)
